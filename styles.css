@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+  background: rgb(205, 124, 221);
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 2.5em;
+}
+h1 {
+  color: tomato;
+  text-align: center;
+  margin: 0.25em auto;
+  font-size: 2em;
+}
+header,
+footer {
+  background-color: turquoise;
+  border-radius: 0.5em;
+  margin: 0.5em auto;
+  padding: 0.25em;
+  text-align: center;
+}
+#contenido {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+#principal,
+aside {
+  background-color: #ed4c62;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 0.25em 0;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+article {
+  background-color: #ebc555;
+  border-radius: 0.5em;
+  min-height: 140px;
+  padding: 0.25em;
+  margin: 0 1em;
+}
+aside {
+  margin-top: 0.5em;
+}
+@media screen and (min-width: 44em) {
+  h1 {
+    font-size: 5em;
+  }
+  #principal {
+    width: 70%;
+  }
+  aside {
+    width: 29%;
+    margin-top: 0;
+  }
+}
+nav {
+  background-color: turquoise;
+  border-radius: 0.5em;
+  margin: 0.5em auto;
+  padding: 0.25em;
+  text-align: left;
+}
+#menu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul li a {
+  color: black;
+  padding: 10px 100px;
+  text-decoration: none;
+}
+#menu ul li a:hover {
+  background-color: #854279;
+}
+#table {
+  margin: 150px auto;
+  width: 600px;
+}
+header a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+#converter {
+  display: inline-block;
+  float: center;
+}
